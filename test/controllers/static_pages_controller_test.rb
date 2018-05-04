@@ -4,10 +4,6 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
 
   def setup
     @base_title = "Ruby on Rails Tutorial Sample App"
-  
-  test "should get root" do
-    get FILL_IN
-    assert_response FILL_IN
   end
   
   test "should get home" do
